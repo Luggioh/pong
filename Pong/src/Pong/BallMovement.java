@@ -8,6 +8,7 @@ public class BallMovement {
 	Timer move;
 	
 	public BallMovement(){
+		System.out.println("");
 		move = new Timer();
 		move.scheduleAtFixedRate(new TimerTask(){
 			
